@@ -1,0 +1,2 @@
+chord.main.class=LBJ2.nlp.coref.ClusterMergerThreads
+chord.class.path=../../lib/parallelArray.threads;bin

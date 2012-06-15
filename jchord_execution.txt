@@ -1,0 +1,781 @@
+Buildfile: ../compare/chord/main/build.xml
+
+run:
+     [java] Chord run initiated at: Jul 25, 2011 6:47:17 PM
+     [java] ENTER: datarace-java at Mon Jul 25 18:47:18 CDT 2011
+     [java] ENTER: P at Mon Jul 25 18:47:18 CDT 2011
+     [java] ENTER: M at Mon Jul 25 18:47:18 CDT 2011
+     [java] ENTER: RTA
+     [java] Iteration: 0
+     [java] Iteration: 1
+     [java] Iteration: 2
+     [java] Iteration: 3
+     [java] LEAVE: RTA
+     [java] Time: 00:00:07:872 hh:mm:ss:ms
+     [java] SAVING dom M size: 6106
+     [java] LEAVE: M
+     [java] Exclusive time: 00:00:08:107 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:08:107 hh:mm:ss:ms
+     [java] SAVING dom P size: 134518
+     [java] LEAVE: P
+     [java] Exclusive time: 00:00:02:865 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:10:973 hh:mm:ss:ms
+     [java] ENTER: ctxts-java at Mon Jul 25 18:47:29 CDT 2011
+     [java] ENTER: cipa-0cfa-dlog at Mon Jul 25 18:47:29 CDT 2011
+     [java] ENTER: T at Mon Jul 25 18:47:29 CDT 2011
+     [java] SAVING dom T size: 1514
+     [java] LEAVE: T
+     [java] Exclusive time: 00:00:00:470 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:470 hh:mm:ss:ms
+     [java] ENTER: F at Mon Jul 25 18:47:30 CDT 2011
+     [java] SAVING dom F size: 4537
+     [java] LEAVE: F
+     [java] Exclusive time: 00:00:00:020 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:020 hh:mm:ss:ms
+     [java] ENTER: V at Mon Jul 25 18:47:30 CDT 2011
+     [java] SAVING dom V size: 50265
+     [java] LEAVE: V
+     [java] Exclusive time: 00:00:00:239 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:239 hh:mm:ss:ms
+     [java] ENTER: H at Mon Jul 25 18:47:30 CDT 2011
+     [java] SAVING dom H size: 4735
+     [java] LEAVE: H
+     [java] Exclusive time: 00:00:00:074 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:074 hh:mm:ss:ms
+     [java] ENTER: I at Mon Jul 25 18:47:30 CDT 2011
+     [java] SAVING dom I size: 22196
+     [java] LEAVE: I
+     [java] Exclusive time: 00:00:00:255 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:255 hh:mm:ss:ms
+     [java] ENTER: Z at Mon Jul 25 18:47:30 CDT 2011
+     [java] SAVING dom Z size: 14
+     [java] LEAVE: Z
+     [java] Exclusive time: 00:00:00:055 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:055 hh:mm:ss:ms
+     [java] ENTER: MmethArg at Mon Jul 25 18:47:30 CDT 2011
+     [java] SAVING rel MmethArg size: 8014
+     [java] LEAVE: MmethArg
+     [java] Exclusive time: 00:00:00:873 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:873 hh:mm:ss:ms
+     [java] ENTER: VT at Mon Jul 25 18:47:31 CDT 2011
+     [java] SAVING rel VT size: 50273
+     [java] LEAVE: VT
+     [java] Exclusive time: 00:00:01:963 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:01:963 hh:mm:ss:ms
+     [java] ENTER: virtIM at Mon Jul 25 18:47:33 CDT 2011
+     [java] SAVING rel virtIM size: 12382
+     [java] LEAVE: virtIM
+     [java] Exclusive time: 00:00:00:394 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:394 hh:mm:ss:ms
+     [java] ENTER: sub at Mon Jul 25 18:47:34 CDT 2011
+     [java] SAVING rel sub size: 4168
+     [java] LEAVE: sub
+     [java] Exclusive time: 00:00:00:165 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:165 hh:mm:ss:ms
+     [java] ENTER: IinvkRet at Mon Jul 25 18:47:34 CDT 2011
+     [java] SAVING rel IinvkRet size: 8396
+     [java] LEAVE: IinvkRet
+     [java] Exclusive time: 00:00:00:306 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:306 hh:mm:ss:ms
+     [java] ENTER: objNewInst-java at Mon Jul 25 18:47:34 CDT 2011
+     [java] SAVING rel objNewInstIH size: 0
+     [java] SAVING rel objNewInstIM size: 0
+     [java] LEAVE: objNewInst-java
+     [java] Exclusive time: 00:00:00:113 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:113 hh:mm:ss:ms
+     [java] ENTER: aryNewInstIH at Mon Jul 25 18:47:34 CDT 2011
+     [java] SAVING rel aryNewInstIH size: 0
+     [java] LEAVE: aryNewInstIH
+     [java] Exclusive time: 00:00:00:058 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:058 hh:mm:ss:ms
+     [java] ENTER: staticTM at Mon Jul 25 18:47:34 CDT 2011
+     [java] SAVING rel staticTM size: 1429
+     [java] LEAVE: staticTM
+     [java] Exclusive time: 00:00:00:083 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:083 hh:mm:ss:ms
+     [java] ENTER: staticTF at Mon Jul 25 18:47:34 CDT 2011
+     [java] SAVING rel staticTF size: 2532
+     [java] LEAVE: staticTF
+     [java] Exclusive time: 00:00:00:095 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:095 hh:mm:ss:ms
+     [java] ENTER: MgetStatFldInst at Mon Jul 25 18:47:34 CDT 2011
+     [java] SAVING rel MgetStatFldInst size: 2147
+     [java] LEAVE: MgetStatFldInst
+     [java] Exclusive time: 00:00:00:230 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:230 hh:mm:ss:ms
+     [java] ENTER: cha at Mon Jul 25 18:47:35 CDT 2011
+     [java] SAVING rel cha size: 14292
+     [java] LEAVE: cha
+     [java] Exclusive time: 00:00:00:777 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:777 hh:mm:ss:ms
+     [java] ENTER: HT at Mon Jul 25 18:47:35 CDT 2011
+     [java] SAVING rel HT size: 4734
+     [java] LEAVE: HT
+     [java] Exclusive time: 00:00:00:137 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:137 hh:mm:ss:ms
+     [java] ENTER: MgetInstFldInst at Mon Jul 25 18:47:36 CDT 2011
+     [java] SAVING rel MgetInstFldInst size: 6846
+     [java] LEAVE: MgetInstFldInst
+     [java] Exclusive time: 00:00:00:513 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:513 hh:mm:ss:ms
+     [java] ENTER: specIM at Mon Jul 25 18:47:36 CDT 2011
+     [java] SAVING rel specIM size: 5913
+     [java] LEAVE: specIM
+     [java] Exclusive time: 00:00:00:193 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:193 hh:mm:ss:ms
+     [java] ENTER: classT at Mon Jul 25 18:47:36 CDT 2011
+     [java] SAVING rel classT size: 880
+     [java] LEAVE: classT
+     [java] Exclusive time: 00:00:00:061 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:061 hh:mm:ss:ms
+     [java] ENTER: MI at Mon Jul 25 18:47:36 CDT 2011
+     [java] SAVING rel MI size: 22196
+     [java] LEAVE: MI
+     [java] Exclusive time: 00:00:00:544 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:544 hh:mm:ss:ms
+     [java] ENTER: MobjValAsgnInst at Mon Jul 25 18:47:37 CDT 2011
+     [java] SAVING rel MobjValAsgnInst size: 4734
+     [java] LEAVE: MobjValAsgnInst
+     [java] Exclusive time: 00:00:00:247 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:247 hh:mm:ss:ms
+     [java] ENTER: clinitTM at Mon Jul 25 18:47:37 CDT 2011
+     [java] SAVING rel clinitTM size: 239
+     [java] LEAVE: clinitTM
+     [java] Exclusive time: 00:00:00:069 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:069 hh:mm:ss:ms
+     [java] ENTER: MobjVarAsgnInst at Mon Jul 25 18:47:37 CDT 2011
+     [java] SAVING rel MobjVarAsgnInst size: 17193
+     [java] LEAVE: MobjVarAsgnInst
+     [java] Exclusive time: 00:00:00:848 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:848 hh:mm:ss:ms
+     [java] ENTER: conNewInst-java at Mon Jul 25 18:47:38 CDT 2011
+     [java] SAVING rel conNewInstIH size: 0
+     [java] SAVING rel conNewInstIM size: 0
+     [java] LEAVE: conNewInst-java
+     [java] Exclusive time: 00:00:00:112 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:113 hh:mm:ss:ms
+     [java] ENTER: IinvkArg0 at Mon Jul 25 18:47:38 CDT 2011
+     [java] SAVING rel IinvkArg0 size: 20288
+     [java] LEAVE: IinvkArg0
+     [java] Exclusive time: 00:00:00:588 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:588 hh:mm:ss:ms
+     [java] ENTER: IinvkArg at Mon Jul 25 18:47:39 CDT 2011
+     [java] SAVING rel IinvkArg size: 29942
+     [java] LEAVE: IinvkArg
+     [java] Exclusive time: 00:00:00:958 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:958 hh:mm:ss:ms
+     [java] ENTER: MmethRet at Mon Jul 25 18:47:40 CDT 2011
+     [java] SAVING rel MmethRet size: 2112
+     [java] LEAVE: MmethRet
+     [java] Exclusive time: 00:00:00:190 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:190 hh:mm:ss:ms
+     [java] ENTER: clsForNameIT at Mon Jul 25 18:47:40 CDT 2011
+     [java] SAVING rel clsForNameIT size: 0
+     [java] LEAVE: clsForNameIT
+     [java] Exclusive time: 00:00:00:057 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:057 hh:mm:ss:ms
+     [java] ENTER: MputInstFldInst at Mon Jul 25 18:47:40 CDT 2011
+     [java] SAVING rel MputInstFldInst size: 2737
+     [java] LEAVE: MputInstFldInst
+     [java] Exclusive time: 00:00:00:313 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:313 hh:mm:ss:ms
+     [java] ENTER: MputStatFldInst at Mon Jul 25 18:47:40 CDT 2011
+     [java] SAVING rel MputStatFldInst size: 824
+     [java] LEAVE: MputStatFldInst
+     [java] Exclusive time: 00:00:00:132 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:132 hh:mm:ss:ms
+     [java] ENTER: statIM at Mon Jul 25 18:47:40 CDT 2011
+     [java] SAVING rel statIM size: 3901
+     [java] LEAVE: statIM
+     [java] Exclusive time: 00:00:00:181 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:181 hh:mm:ss:ms
+     [java] Starting command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_alias_cipa_0cfa.dlog '
+     [java] Relation IHM: 146056 nodes, 3336182.0 elements (I0,M0,H0)
+     [java] Relation reachableT: 260 nodes, 552.0 elements (T0)
+     [java] Relation VHfilter: 32995 nodes, 1.9402896E7 elements (V0,H0)
+     [java] Relation VH: 33073 nodes, 519011.0 elements (V0,H0)
+     [java] Relation FH: 3713 nodes, 527.0 elements (H0,F0)
+     [java] Relation HFH: 11841 nodes, 312421.0 elements (H0,F0,H1)
+     [java] Relation rootM: 269 nodes, 145.0 elements (M0)
+     [java] Relation reachableI: 959 nodes, 10323.0 elements (I0)
+     [java] Relation reachableM: 703 nodes, 2838.0 elements (M0)
+     [java] Relation IM: 22403 nodes, 13823.0 elements (I0,M0)
+     [java] Relation MM: 14662 nodes, 9113.0 elements (M0,M1)
+     [java] Finished command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_alias_cipa_0cfa.dlog '
+     [java] LEAVE: cipa-0cfa-dlog
+     [java] Exclusive time: 00:00:13:508 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:24:827 hh:mm:ss:ms
+     [java] SAVING dom C size: 26931
+     [java] SAVING rel CI size: 22196
+     [java] SAVING rel CH size: 4734
+     [java] SAVING rel CC size: 26930
+     [java] SAVING rel epsilonM size: 6106
+     [java] SAVING rel kcfaSenM size: 0
+     [java] SAVING rel kobjSenM size: 0
+     [java] SAVING rel ctxtCpyM size: 0
+     [java] SAVING rel epsilonV size: 50265
+     [java] SAVING rel refinableV size: 0
+     [java] SAVING rel refinableM size: 0
+     [java] LEAVE: ctxts-java
+     [java] Exclusive time: 00:00:03:182 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:28:009 hh:mm:ss:ms
+     [java] ENTER: cspa-0cfa-dlog at Mon Jul 25 18:47:57 CDT 2011
+     [java] Starting command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_alias_cspa_0cfa.dlog '
+     [java] Relation CVC: 91945 nodes, 519011.0 elements (C0,C1,V0)
+     [java] Relation FC: 3701 nodes, 527.0 elements (C0,F0)
+     [java] Relation CFC: 12874 nodes, 312421.0 elements (C0,F0,C1)
+     [java] Relation rootCM: 284 nodes, 145.0 elements (C0,M0)
+     [java] Relation reachableCI: 974 nodes, 10323.0 elements (C0,I0)
+     [java] Relation reachableCM: 718 nodes, 2838.0 elements (C0,M0)
+     [java] Relation CICM: 22433 nodes, 13823.0 elements (C0,M0,I0,C1)
+     [java] Relation CMCM: 14692 nodes, 9113.0 elements (C0,M0,C1,M1)
+     [java] Finished command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_alias_cspa_0cfa.dlog '
+     [java] LEAVE: cspa-0cfa-dlog
+     [java] Exclusive time: 00:00:01:727 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:01:727 hh:mm:ss:ms
+     [java] ENTER: datarace-prologue-dlog at Mon Jul 25 18:47:59 CDT 2011
+     [java] ENTER: E at Mon Jul 25 18:47:59 CDT 2011
+     [java] SAVING dom E size: 24934
+     [java] LEAVE: E
+     [java] Exclusive time: 00:00:00:196 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:196 hh:mm:ss:ms
+     [java] ENTER: threads-java at Mon Jul 25 18:47:59 CDT 2011
+     [java] ENTER: threads-dlog at Mon Jul 25 18:47:59 CDT 2011
+     [java] ENTER: thrOblAbbrCSCG-dlog at Mon Jul 25 18:47:59 CDT 2011
+     [java] Starting command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_alias_thrOblAbbrCSCG.dlog '
+     [java] Relation thrOblAbbrRootCM: 28 nodes, 1.0 elements (C0,M0)
+     [java] Relation thrOblAbbrReachableCM: 699 nodes, 2429.0 elements (C0,M0)
+     [java] Relation thrOblAbbrCICM: 20468 nodes, 12602.0 elements (C0,M0,I0,C1)
+     [java] Relation thrOblAbbrCMCM: 13404 nodes, 8425.0 elements (C0,M0,C1,M1)
+     [java] Finished command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_alias_thrOblAbbrCSCG.dlog '
+     [java] LEAVE: thrOblAbbrCSCG-dlog
+     [java] Exclusive time: 00:00:01:386 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:01:386 hh:mm:ss:ms
+     [java] Starting command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_thread_threads.dlog '
+     [java] Relation threadOC: 52 nodes, 2.0 elements (C0,C1)
+     [java] Finished command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_thread_threads.dlog '
+     [java] LEAVE: threads-dlog
+     [java] Exclusive time: 00:00:01:276 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:02:662 hh:mm:ss:ms
+     [java] SAVING dom A size: 4
+     [java] SAVING rel threadAOCM size: 3
+     [java] LEAVE: threads-java
+     [java] Exclusive time: 00:00:00:127 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:02:790 hh:mm:ss:ms
+     [java] ENTER: ME at Mon Jul 25 18:48:02 CDT 2011
+     [java] SAVING rel ME size: 24934
+     [java] LEAVE: ME
+     [java] Exclusive time: 00:00:00:507 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:507 hh:mm:ss:ms
+     [java] ENTER: checkExcludedT at Mon Jul 25 18:48:02 CDT 2011
+     [java] SAVING rel checkExcludedT size: 384
+     [java] LEAVE: checkExcludedT
+     [java] Exclusive time: 00:00:00:063 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:063 hh:mm:ss:ms
+     [java] ENTER: thrSenAbbrCSCG-dlog at Mon Jul 25 18:48:02 CDT 2011
+     [java] Starting command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_alias_thrSenAbbrCSCG.dlog '
+     [java] Relation thrSenAbbrRootCM: 27 nodes, 2.0 elements (C0,M0)
+     [java] Relation thrSenAbbrReachableCM: 699 nodes, 2429.0 elements (C0,M0)
+     [java] Relation thrSenAbbrCICM: 20465 nodes, 12601.0 elements (C0,M0,I0,C1)
+     [java] Relation thrSenAbbrCMCM: 13404 nodes, 8424.0 elements (C0,M0,M1,C1)
+     [java] Finished command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_alias_thrSenAbbrCSCG.dlog '
+     [java] LEAVE: thrSenAbbrCSCG-dlog
+     [java] Exclusive time: 00:00:01:544 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:01:544 hh:mm:ss:ms
+     [java] ENTER: TM at Mon Jul 25 18:48:04 CDT 2011
+     [java] SAVING rel TM size: 6106
+     [java] LEAVE: TM
+     [java] Exclusive time: 00:00:00:142 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:142 hh:mm:ss:ms
+     [java] ENTER: EF at Mon Jul 25 18:48:04 CDT 2011
+     [java] SAVING rel EF size: 24934
+     [java] LEAVE: EF
+     [java] Exclusive time: 00:00:00:600 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:600 hh:mm:ss:ms
+     [java] ENTER: writeE at Mon Jul 25 18:48:05 CDT 2011
+     [java] SAVING rel writeE size: 10470
+     [java] LEAVE: writeE
+     [java] Exclusive time: 00:00:00:133 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:133 hh:mm:ss:ms
+     [java] Starting command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_datarace_datarace_prologue.dlog '
+     [java] Relation reachableTCM: 899 nodes, 6986.0 elements (A0,C0,M0)
+     [java] Relation relevantTCE: 789 nodes, 12974.0 elements (A0,C0,E0)
+     [java] Relation rdOrWrTCEF: 10175 nodes, 12974.0 elements (A0,C0,E0,F0)
+     [java] Relation onlyWrTCEF: 6114 nodes, 3255.0 elements (A0,C0,E0,F0)
+     [java] Finished command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_datarace_datarace_prologue.dlog '
+     [java] LEAVE: datarace-prologue-dlog
+     [java] Exclusive time: 00:00:01:242 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:07:218 hh:mm:ss:ms
+     [java] ENTER: datarace-parallel-include-dlog at Mon Jul 25 18:48:06 CDT 2011
+     [java] ENTER: mhp-dlog at Mon Jul 25 18:48:06 CDT 2011
+     [java] ENTER: MPhead at Mon Jul 25 18:48:06 CDT 2011
+     [java] SAVING rel MPhead size: 5844
+     [java] LEAVE: MPhead
+     [java] Exclusive time: 00:00:00:214 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:214 hh:mm:ss:ms
+     [java] ENTER: PP at Mon Jul 25 18:48:06 CDT 2011
+     [java] SAVING rel PP size: 140513
+     [java] LEAVE: PP
+     [java] Exclusive time: 00:00:05:906 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:05:906 hh:mm:ss:ms
+     [java] ENTER: PI at Mon Jul 25 18:48:12 CDT 2011
+     [java] SAVING rel PI size: 22196
+     [java] LEAVE: PI
+     [java] Exclusive time: 00:00:01:000 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:01:000 hh:mm:ss:ms
+     [java] ENTER: MPtail at Mon Jul 25 18:48:13 CDT 2011
+     [java] SAVING rel MPtail size: 5844
+     [java] LEAVE: MPtail
+     [java] Exclusive time: 00:00:00:215 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:215 hh:mm:ss:ms
+     [java] Starting command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_mhp_mhp.dlog '
+     [java] Relation ForkPMcs: 62 nodes, 2.0 elements (P0,C0,C1)
+     [java] Relation ForkPHcs: 94 nodes, 2.0 elements (P0,C0,C1,P1)
+     [java] Relation NonForkPMcs: 30153 nodes, 13821.0 elements (M0,P0,C0,C1)
+     [java] Relation NonForkPHcs: 46126 nodes, 13821.0 elements (P0,C0,C1,P1)
+     [java] Relation NonForkPTcs: 46031 nodes, 13821.0 elements (P0,C0,C1,P1)
+     [java] Relation PathEdge: 2921 nodes, 461713.0 elements (P0,C0,A0,A1,A2)
+     [java] Relation SummEdge: 7676 nodes, 86348.0 elements (P0,C0,A0,A1,A2)
+     [java] Relation mhp: 2505 nodes, 310368.0 elements (P0,C0,A0,A1)
+     [java] Finished command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_mhp_mhp.dlog '
+     [java] LEAVE: mhp-dlog
+     [java] Exclusive time: 00:00:04:849 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:12:184 hh:mm:ss:ms
+     [java] ENTER: PE at Mon Jul 25 18:48:18 CDT 2011
+     [java] SAVING rel PE size: 24934
+     [java] LEAVE: PE
+     [java] Exclusive time: 00:00:01:062 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:01:063 hh:mm:ss:ms
+     [java] Starting command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_datarace_parallel_include.dlog '
+     [java] Relation mhe: 1136 nodes, 50278.0 elements (C0,A0,A1,E0)
+     [java] Finished command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_datarace_parallel_include.dlog '
+     [java] LEAVE: datarace-parallel-include-dlog
+     [java] Exclusive time: 00:00:01:430 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:14:677 hh:mm:ss:ms
+     [java] ENTER: datarace-escaping-include-dlog at Mon Jul 25 18:48:21 CDT 2011
+     [java] ENTER: flowins-thresc-dlog at Mon Jul 25 18:48:21 CDT 2011
+     [java] ENTER: MV at Mon Jul 25 18:48:21 CDT 2011
+     [java] SAVING rel MV size: 50265
+     [java] LEAVE: MV
+     [java] Exclusive time: 00:00:01:209 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:01:209 hh:mm:ss:ms
+     [java] ENTER: MP at Mon Jul 25 18:48:22 CDT 2011
+     [java] SAVING rel MP size: 122830
+     [java] LEAVE: MP
+     [java] Exclusive time: 00:00:04:576 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:04:576 hh:mm:ss:ms
+     [java] ENTER: EV at Mon Jul 25 18:48:27 CDT 2011
+     [java] SAVING rel EV size: 21234
+     [java] LEAVE: EV
+     [java] Exclusive time: 00:00:00:567 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:567 hh:mm:ss:ms
+     [java] Starting command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_escape_flowins_thresc.dlog '
+     [java] Relation escO: 483 nodes, 1594.0 elements (C0)
+     [java] Relation escCPVO: 98187 nodes, 3.8703891E7 elements (V0,C0,P0,C1)
+     [java] Relation flowinsVisitedE: 952 nodes, 6398.0 elements (E0)
+     [java] Relation flowinsEscE: 916 nodes, 4536.0 elements (E0)
+     [java] Relation flowinsLocE: 1310 nodes, 8941.0 elements (E0)
+     [java] Relation queryE: 1206 nodes, 13477.0 elements (E0)
+     [java] Finished command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_escape_flowins_thresc.dlog '
+     [java] LEAVE: flowins-thresc-dlog
+     [java] Exclusive time: 00:00:02:476 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:08:828 hh:mm:ss:ms
+     [java] Starting command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_datarace_escaping_include.dlog '
+     [java] Relation CEC: 34572 nodes, 31384.0 elements (C0,C1,E0)
+     [java] Finished command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_datarace_escaping_include.dlog '
+     [java] LEAVE: datarace-escaping-include-dlog
+     [java] Exclusive time: 00:00:02:583 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:11:411 hh:mm:ss:ms
+     [java] ENTER: datarace-nongrded-include-dlog at Mon Jul 25 18:48:32 CDT 2011
+     [java] ENTER: L at Mon Jul 25 18:48:32 CDT 2011
+     [java] SAVING dom L size: 322
+     [java] LEAVE: L
+     [java] Exclusive time: 00:00:00:076 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:076 hh:mm:ss:ms
+     [java] ENTER: syncCLC-dlog at Mon Jul 25 18:48:32 CDT 2011
+     [java] ENTER: thisMV at Mon Jul 25 18:48:32 CDT 2011
+     [java] SAVING rel thisMV size: 4415
+     [java] LEAVE: thisMV
+     [java] Exclusive time: 00:00:00:160 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:160 hh:mm:ss:ms
+     [java] ENTER: syncLV at Mon Jul 25 18:48:32 CDT 2011
+     [java] SAVING rel syncLV size: 178
+     [java] LEAVE: syncLV
+     [java] Exclusive time: 00:00:00:062 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:062 hh:mm:ss:ms
+     [java] ENTER: syncLM at Mon Jul 25 18:48:33 CDT 2011
+     [java] SAVING rel syncLM size: 135
+     [java] LEAVE: syncLM
+     [java] Exclusive time: 00:00:00:060 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:060 hh:mm:ss:ms
+     [java] ENTER: statM at Mon Jul 25 18:48:33 CDT 2011
+     [java] SAVING rel statM size: 1429
+     [java] LEAVE: statM
+     [java] Exclusive time: 00:00:00:069 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:069 hh:mm:ss:ms
+     [java] Starting command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_lock_syncCLC.dlog '
+     [java] Relation syncCLC: 2573 nodes, 965.0 elements (C0,L0,C1)
+     [java] Finished command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_lock_syncCLC.dlog '
+     [java] LEAVE: syncCLC-dlog
+     [java] Exclusive time: 00:00:01:080 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:01:432 hh:mm:ss:ms
+     [java] ENTER: transLI-dlog at Mon Jul 25 18:48:34 CDT 2011
+     [java] ENTER: LI at Mon Jul 25 18:48:34 CDT 2011
+     [java] SAVING rel LI size: 919
+     [java] LEAVE: LI
+     [java] Exclusive time: 00:00:00:210 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:210 hh:mm:ss:ms
+     [java] ENTER: LL at Mon Jul 25 18:48:34 CDT 2011
+     [java] SAVING rel LL size: 4
+     [java] LEAVE: LL
+     [java] Exclusive time: 00:00:00:176 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:176 hh:mm:ss:ms
+     [java] Starting command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_lock_transLI.dlog '
+     [java] Relation transLI: 3289 nodes, 948.0 elements (L0,I0)
+     [java] Finished command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_lock_transLI.dlog '
+     [java] LEAVE: transLI-dlog
+     [java] Exclusive time: 00:00:00:579 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:965 hh:mm:ss:ms
+     [java] ENTER: transLE-dlog at Mon Jul 25 18:48:35 CDT 2011
+     [java] ENTER: LE at Mon Jul 25 18:48:35 CDT 2011
+     [java] SAVING rel LE size: 1085
+     [java] LEAVE: LE
+     [java] Exclusive time: 00:00:00:201 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:201 hh:mm:ss:ms
+     [java] Starting command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_lock_transLE.dlog '
+     [java] Relation transLE: 3216 nodes, 1104.0 elements (L0,E0)
+     [java] Finished command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_lock_transLE.dlog '
+     [java] LEAVE: transLE-dlog
+     [java] Exclusive time: 00:00:00:585 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:786 hh:mm:ss:ms
+     [java] Starting command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_datarace_nongrded_include.dlog '
+     [java] Relation guardedE: 2010 nodes, 12619.0 elements (C0,C1,A0,E0)
+     [java] Finished command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_datarace_nongrded_include.dlog '
+     [java] LEAVE: datarace-nongrded-include-dlog
+     [java] Exclusive time: 00:00:01:392 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:04:651 hh:mm:ss:ms
+     [java] ENTER: datarace-dlog at Mon Jul 25 18:48:37 CDT 2011
+     [java] ENTER: statF at Mon Jul 25 18:48:37 CDT 2011
+     [java] SAVING rel statF size: 2532
+     [java] LEAVE: statF
+     [java] Exclusive time: 00:00:00:106 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:106 hh:mm:ss:ms
+     [java] Starting command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_datarace_datarace.dlog '
+     [java] Relation ctxtInsStartingRace: 20585 nodes, 166483.0 elements (E0,E1)
+     [java] Relation datarace: 13454 nodes, 13513.0 elements (A0,C0,E0,A1,C1,E1)
+     [java] Finished command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_datarace_datarace.dlog '
+     [java] LEAVE: datarace-dlog
+     [java] Exclusive time: 00:00:01:971 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:02:077 hh:mm:ss:ms
+     [java] ENTER: datarace-stats-dlog at Mon Jul 25 18:48:39 CDT 2011
+     [java] Starting command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_datarace_datarace_stats.dlog '
+     [java] Relation ctxtInsDatarace: 11126 nodes, 6010.0 elements (E0,E1)
+     [java] Finished command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_datarace_datarace_stats.dlog '
+     [java] LEAVE: datarace-stats-dlog
+     [java] Exclusive time: 00:00:00:758 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:758 hh:mm:ss:ms
+     [java] ENTER: cs-alias-java at Mon Jul 25 18:48:40 CDT 2011
+     [java] LEAVE: cs-alias-java
+     [java] Exclusive time: 00:00:00:000 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:000 hh:mm:ss:ms
+     [java] ENTER: thrsen-abbr-cscg-java at Mon Jul 25 18:48:40 CDT 2011
+     [java] LEAVE: thrsen-abbr-cscg-java
+     [java] Exclusive time: 00:00:00:000 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:00:000 hh:mm:ss:ms
+     [java] ENTER: datarace-epilogue-dlog at Mon Jul 25 18:48:40 CDT 2011
+     [java] Starting command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_datarace_datarace_epilogue.dlog '
+     [java] Relation raceCEC: 22038 nodes, 13461.0 elements (C0,E0,C1,E1,C2)
+     [java] Finished command: 'nice -n10 java -ea -Xmx1024m -cp /home/cos/workspace/compare/chord/main/chord.jar -Dverbose=1 -Dbdd=j -Dbasedir=/home/cos/workspace/evaluation/coref/chord_output/bddbddb net.sf.bddbddb.Solver /home/cos/workspace/evaluation/coref/chord_output/chord_analyses_datarace_datarace_epilogue.dlog '
+     [java] LEAVE: datarace-epilogue-dlog
+     [java] Exclusive time: 00:00:01:051 hh:mm:ss:ms
+     [java] Inclusive time: 00:00:01:051 hh:mm:ss:ms
+     [java] TASK LI ALREADY DONE.
+     [java] TASK LE ALREADY DONE.
+     [java] TASK syncCLC-dlog ALREADY DONE.
+     [java] Created /home/cos/workspace/evaluation/coref/chord_output/stylesheet.css
+     [java] Created /home/cos/workspace/evaluation/coref/chord_output/front.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/NegatedConstraintExpression.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/PropositionalConstant.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/GLPK.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/ClassifierName.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/Declaration.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/DecodeLBJCorefBL.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/FirstOrderEqualityWithVariable.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coref/PerturbedLabels.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/Block.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/CatchClause.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/LearningClassifierExpression.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/FirstOrderConstant.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/classify/DiscreteFeature.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/CatchList.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/TranslateToJava.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/seg/Token.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/Conditional.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/learn/IdentityNormalizer.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/InvocationArgumentReplacer.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coherence/ChainBigrams.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/StatementList.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/learn/NaiveBayes.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/FPLDataCoref.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coherence/SubjectBigramCounts.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/ReferenceType.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/WhileStatement.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/FieldAccess.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/ConstraintStatementExpression.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/ExpressionList.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coref/NoNonPronounToPronoun.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/parse/FoldParser.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/VariableDeclaration.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coherence/B3Label.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coherence/GridTrigrams.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/ConstraintDeclaration.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/InferenceInvocation.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/Sentence.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/RevisionAnalysis.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/WordTypeInformation.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/List.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coherence/cohere1$CohereGBCBNNPTPSPO$1.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/classify/Feature.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/learn/Parameters.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/CodeGenerator.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/EqualityArgumentReplacer.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/Affixes.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/NameList.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/seg/BIOTester.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/ClassifierType.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/SwitchBlock.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/DecodeLBJCorefFPL.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/ClassifierReturnType.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/classify/MultiValueComparer.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/ForStatement.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coherence/Util.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/FirstOrderEquality.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coherence/cohere$CohereGBCBNNPTPSPO$1.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/FirstOrderEqualityTwoValues.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coherence/MassCoherenceTester.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/FirstOrderDoubleImplication.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/ClassifierCastExpression.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coref/CorefLabel.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coref/BestLink.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/seg/SegmentTagPlain.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/VariableInstance.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coherence/cohere1$CohereCMGBCBNNPTPSPO$1.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/ConstantList.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/FirstOrderEqualityWithValue.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/learn/StochasticGradientDescent.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/Main.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/learn/Softmax.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/Pass.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/Capitalization.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/frontend/sym.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/learn/Learner.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/learn/LearnerToText.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/learn/MuxLearner.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coref/DataCoref.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/PropositionalBinaryConstraint.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/learn/SparseWinnow.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coref/StatisticsUtility.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/SynchronizedStatement.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/classify/ScoreSet.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/NLDocument.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/classify/RealArrayFeature.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/Assignment.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/ExpressionStatement.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/ConstraintExpression.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/classify/RealFeature.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/NNPTPDataCoref.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/POSBracketToWord.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/DeclarationNames.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/ConstraintEqualityExpression.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coref/PredictedDocumentParser.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/ConstraintInvocation.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/SubscriptVariable.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/SwitchStatement.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/Quantifier.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/PropositionalNAryConstraint.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/PropositionalImplication.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/frontend/parser.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/StatementExpression.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/FirstOrderConjunction.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/ArrayInitializer.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/SenseStatement.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/CastExpression.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/PropositionalDisjunction.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/ConstraintType.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/QuantifierArgumentReplacer.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/PackageDeclaration.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/Expression.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/DecodeFPL.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/parse/LinkedChild.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/AtLeastQuantifier.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/UnaryExpression.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/classify/FeatureVectorReturner.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/ReturnStatement.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coref/NNPTPMergedPronouns.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/learn/SparsePerceptron.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/classify/Score.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coref/CorefAction.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coref/ForcePronounLink.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/frontend/symNames.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/AtMostQuantifier.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/parse/FoldSeparator.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/AST.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/CodedClassifier.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coherence/CohereCMGBCBNNPTPSPO.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/TryStatement.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/ColumnFormat.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/learn/TestingMetric.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coref/ClusterMergerExhaustiveParser.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coref/PrePredictedDocumentParser.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/PrimitiveType.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/InferenceDeclaration.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/SwitchGroup.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/ASTNode.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/UniversalQuantifierExpression.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/classify/LabelVectorReturner.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/ParameterizedConstraint.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coref/DataCorefTester.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/Clean.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/BestLinkDataCoref.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/BreakStatement.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/util/StudentT.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/DecodeLBJCorefNNPTP.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/frontend/ScannerError.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/InferenceType.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/BinaryExpression.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coref/CorefToHTML.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/InferenceManager.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/ArgumentReplacer.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coref/ClusterMerger.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/DoStatement.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coref/Rerank.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/ClassifierAssignment.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/io/HexOutputStream.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/ASTNodeIterator.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/FirstOrderBinaryConstraint.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/UniversalQuantifier.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/ThrowStatement.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/Constant.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/POS.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coref/Document.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/AtMostQuantifierExpression.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/classify/Classifier.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/classify/FeatureVector.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/DeclarationList.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/Constraint.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/PropositionalDoubleImplication.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/InstanceCreationExpression.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/classify/TestDiscrete.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/MethodInvocation.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/ExistentialQuantifier.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/LabeledStatement.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/QuantifiedConstraintInvocation.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/learn/Log.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coref/MakeCoherent$subjectto.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/Inference.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/frontend/Yylex.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/SwitchGroupList.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/Name.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/ClassifierExpression.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coref/ClusterMergerCoherenceParser.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/PropositionalAtLeast.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/learn/LinearThresholdUnit.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/ImportList.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coref/PronounAnalyzer.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coref/ClusterMergerParser.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/jni/GLPKHook.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/IfStatement.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/ExistentialQuantifierExpression.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/SymbolTable.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/parse/Parser.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coherence/DocumentPairParser.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/Word.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/ArrayType.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/io/LearnedClassifierOutputStream.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/Type.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/util/TableFormat.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/parse/FeatureVectorParser.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/Argument.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/learn/BinaryMIRA.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/classify/DiscreteArrayFeature.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/NNPTPLBJCorefBridge.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/POSBracketToVector.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/DecodeBL.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coref/CoreferenceTester.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coref/MergedPronouns.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coref/ClusterMergerThreads.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/CompositeGenerator.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/frontend/TokenValue.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/InstanceofExpression.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/WordSplitter.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coref/HCBLDataCoref.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/IncrementExpression.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/Operator.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/PropositionalConstraint.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/io/StringInputStream.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/Train.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/io/HexInputStream.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/ContinueStatement.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/PropositionalConjunction.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coherence/ChainTrigrams.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/learn/Normalizer.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/AssertStatement.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/NaiveGLPK.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/PropositionalVariable.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coref/HCNNPTPDataCoref.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/parse/ChildrenFromVectors.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coref/ClusterMerge.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/learn/SparseWeightVector.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/SwitchLabel.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/SwitchLabelList.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/seg/PlainToTokenParser.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/ILPInference.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/FirstOrderConstraint.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/Configuration.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coherence/CoherenceLabel.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/FirstOrderVariable.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/learn/SparseNetworkLearner.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/ImportDeclaration.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/ClassifierExpressionList.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/FirstOrderNAryConstraint.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/Forms.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/Statement.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coherence/CoherenceTester.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/ILPSolver.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/PropositionalNegation.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/learn/SparseAveragedPerceptron.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/parse/LinkedVector.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/Conjunction.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/ArrayCreationExpression.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/NormalizerType.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coref/ACE2004DocumentParser.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/learn/Sigmoid.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/SentenceSplitter.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/parse/LineByLine.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coherence/CohereGBCBNNPTPSPO.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/FirstOrderImplication.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/PrintAST.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/FirstOrderNegation.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/classify/ValueComparer.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/learn/Accuracy.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/util/ClassUtils.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/AtLeastQuantifierExpression.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/BinaryConstraintExpression.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/FirstOrderDisjunction.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/infer/InferenceNotOptimalException.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/QuantifiedConstraintExpression.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/learn/MultiLabelLearner.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/DecodeNNPTP.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/FPLLBJCorefBridge.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coherence/GridBigrams.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/IR/EmptyStatement.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/nlp/coref/BestLinkMergedPronouns.java.html
+     [java] Created: /home/cos/workspace/evaluation/coref/chord_output/LBJ2/SemanticAnalysis.java.html
+     [java] LEAVE: datarace-java
+     [java] Exclusive time: 00:02:05:775 hh:mm:ss:ms
+     [java] Inclusive time: 00:02:16:748 hh:mm:ss:ms
+     [java] Chord run completed at: Jul 25, 2011 6:49:35 PM
+     [java] Total time: 00:02:18:113 hh:mm:ss:ms
+
+BUILD SUCCESSFUL
+Total time: 2 minutes 18 seconds
